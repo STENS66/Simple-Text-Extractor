@@ -1,0 +1,23 @@
+# requirements.txt — OCR + PDF + utilitaires Python 3.11
+
+cffi==1.17.1
+charset-normalizer==3.4.3
+cryptography==45.0.7
+markdown-it-py==4.0.0
+mdurl==0.1.2
+Nuitka==2.7.11
+ordered-set==4.1.0
+packaging==25.0
+pillow==11.3.0
+pip==25.3
+pluggy==1.6.0
+pycparser==2.22
+Pygments==2.19.2
+pypdfium2==4.30.0
+pytesseract==0.3.13
+rich==14.1.0
+setuptools==65.5.0
+wrapt==1.17.3
+zstandard==0.24.0
+
+
