@@ -11,23 +11,23 @@ Cette version 1.1 introduit une nouvelle architecture robuste, une interface raf
 
 ### Fonctionnalités
 
-- Confidentialité Totale : Toutes les opérations sont effectuées localement sans connexion internet.
+- **Confidentialité Totale :** Toutes les opérations sont effectuées localement sans connexion internet.
 
-- Interface Moderne : Nouvelle interface graphique fluide et ergonomique (basée sur CustomTkinter) avec support des écrans haute résolution.
+- **Interface Moderne :** Nouvelle interface graphique fluide et ergonomique (basée sur CustomTkinter) avec support des écrans haute résolution.
 
-- Traitement par Lots (Batch Processing) : Ajoutez autant de fichiers que vous le souhaitez dans la file d'attente et traitez-les tous automatiquement à la suite.
+- **Traitement par Lots (Batch Processing) :** Ajoutez autant de fichiers que vous le souhaitez dans la file d'attente et traitez-les tous automatiquement à la suite.
 
-- Glisser-Déposer (Drag & Drop) : Glissez simplement vos fichiers directement dans la fenêtre pour les ajouter instantanément.
+- **Glisser-Déposer (Drag & Drop) :** Glissez simplement vos fichiers directement dans la fenêtre pour les ajouter instantanément.
 
-- Analyse des Métadonnées : Visualisation immédiate des détails techniques (Taille, Nombre de pages, Résolution DPI, Format PDF/A) avant le traitement.
+- **Analyse des Métadonnées :** Visualisation immédiate des détails techniques (Taille, Nombre de pages, Résolution DPI, Format PDF/A) avant le traitement.
 
-- Format Archivage (PDF/A) : Option pour générer des fichiers conformes à la norme d'archivage long terme (PDF/A-1b).
+- **Format Archivage (PDF/A) :** Option pour générer des fichiers conformes à la norme d'archivage long terme (PDF/A-1b).
 
-- Gestion Flexible : Possibilité de supprimer des fichiers de la liste un par un ou de tout vider en un clic.
+- **Gestion Flexible :** Possibilité de supprimer des fichiers de la liste un par un ou de tout vider en un clic.
 
-- Compatible : Prend en charge les fichiers PDF, PNG, JPG, JPEG, TIFF et BMP.
+- **Compatible :** Prend en charge les fichiers PDF, PNG, JPG, JPEG, TIFF et BMP.
 
-- Zéro Configuration : Aucun droit administrateur requis, portable et sécurisé.
+- **Zéro Configuration :** Aucun droit administrateur requis, portable et sécurisé.
 
 
 ### Utilisation
