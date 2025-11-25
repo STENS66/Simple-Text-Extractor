@@ -1,77 +1,84 @@
-# Simple Text Extractor - Version 1.0
+# Simple Text Extractor - Version française 1.1
 
 # Copyright © Gaëtan Sencie 2025
-
 # Tous droits réservés.
-
-
 
 ## Description
 
+**"Simple Text Extractor"** est une application de bureau moderne permettant d'extraire de manière sécurisée le texte à partir de vos fichiers PDF images, PNG, JPG, JPEG, TIFF ou BMP rapidement et efficacement. Elle fonctionne exclusivement en local sur l'ordinateur de l'utilisateur, garantissant ainsi une sécurité maximale.
 
-
-**"Simple Text Extractor"** est une application permettant d'extraire de manière sécurisée le texte à partir de vos fichiers PDF images, PNG, JPG, JPEG, TIFF ou BMP rapidement et efficacement. Elle fonctionne exclusivement en local sur l'ordinateur de l'utilisateur, garantissant ainsi une sécurité maximale.
-
-
+Cette version 1.1 introduit une nouvelle architecture robuste, une interface rafraîchie et des fonctionnalités de productivité avancées comme le traitement par lots.
 
 ### Fonctionnalités
 
+- Confidentialité Totale : Toutes les opérations sont effectuées localement sans connexion internet.
 
+- Interface Moderne : Nouvelle interface graphique fluide et ergonomique (basée sur CustomTkinter) avec support des écrans haute résolution.
 
-* L'interface utilisateur est conviviale et facile à utiliser, permettant à tout utilisateur de convertir ses PDF images sans effort.
-* Compatible avec les fichiers PDF, PNG, JPG, JPEG, TIFF ou BMP.
-* Aucun droit administrateur requis, ce qui rend l'application plus sûre à utiliser sur n'importe quel ordinateur.
-* Toutes les opérations sont effectuées localement, sans nécessiter de connexion internet, garantissant ainsi la confidentialité et la sécurité des données de l'utilisateur.
-* La conversion est rapide et efficace, évitant le besoin de télécharger et téléverser vos fichiers sur des sites externes.
+- Traitement par Lots (Batch Processing) : Ajoutez autant de fichiers que vous le souhaitez dans la file d'attente et traitez-les tous automatiquement à la suite.
 
+- Glisser-Déposer (Drag & Drop) : Glissez simplement vos fichiers directement dans la fenêtre pour les ajouter instantanément.
+
+- Analyse des Métadonnées : Visualisation immédiate des détails techniques (Taille, Nombre de pages, Résolution DPI, Format PDF/A) avant le traitement.
+
+- Format Archivage (PDF/A) : Option pour générer des fichiers conformes à la norme d'archivage long terme (PDF/A-1b).
+
+- Gestion Flexible : Possibilité de supprimer des fichiers de la liste un par un ou de tout vider en un clic.
+
+- Compatible : Prend en charge les fichiers PDF, PNG, JPG, JPEG, TIFF et BMP.
+
+- Zéro Configuration : Aucun droit administrateur requis, portable et sécurisé.
 
 
 ### Utilisation
 
-
-
 Pour extraire du texte avec **"Simple Text Extractor"** :
 
+**1. Ajouter des fichiers :**
 
+- Cliquez sur le bouton "Choisir PDF ou Image d'entrée" ou faites simplement glisser vos fichiers (PDF ou Images) dans la fenêtre de l'application.
 
-1. Sélectionnez un fichier PDF image, PNG ou JPG contenant les textes à extraire à l'aide du bouton **"Choisir PDF ou Image d'entrée"**.
-2. Définissez le dossier et le nom du fichier PDF de sortie via le bouton **"Choisir PDF de sortie"**, ou conservez le nom par défaut (nom\_du\_fichier\_ocr) dans le même dossier.
-3. Choisissez les options d'extraction souhaitées.
-4. Cliquez sur **"Lancer l'OCR"** pour démarrer l'extraction des textes contenus dans le fichier PDF image, PNG, JPG, JPEG, TIFF ou BMP.
-5. Vérifiez le message de confirmation indiquant que l'OCR s'est terminé avec succès. Ouvrez ensuite le nouveau PDF généré pour :
+**2. Configurer la sortie (Optionnel) :**
 
-   * Sélectionner et copier-coller les textes extraits.
-   * Effectuer des recherches par mots-clés.
-   * Travailler directement sur le fichier en surlignant ou ajoutant des commentaires.
+- Par défaut, les fichiers sont sauvegardés dans le même dossier que la source.
 
+- Vous pouvez définir un dossier spécifique via le bouton "Choisir..." dans la section Destination.
+
+- Cochez la case "Format Archivage (PDF/A)" si vous souhaitez un document optimisé pour la conservation longue durée.
+
+**3. Lancer le traitement :**
+
+- Vérifiez la liste des fichiers en attente.
+
+- Cliquez sur "Lancer l'OCR".
+
+**4. Résultats :**
+
+- Suivez la progression globale et détaillée via la barre de chargement.
+
+- Une fois terminé, cliquez sur les liens affichés pour ouvrir directement le dossier contenant vos nouveaux fichiers (nommés automatiquement avec le suffixe _ocr).
 
 
 ### Avantages
 
+- **Sécurité Renforcée :** Intègre des protections contre les fichiers malveillants (Decompression Bombs) et sécurise l'exécution des processus internes.
 
+- **Stabilité Industrielle :** Grâce à une nouvelle architecture (Multiprocessing), l'application ne gèle jamais, même lors du traitement de documents lourds.
 
-* **Sécurité** : Logiciel entièrement autonome sans communication de données sur internet, garantissant la confidentialité des informations.
-* **Simplicité** : Conçu pour être facile à utiliser, même pour les utilisateurs non techniques.
-* **Rapidité** : Extraction locale rapide, sans avoir à transférer des fichiers vers un site web.
-* **Contrôle total** : L'utilisateur garde un contrôle absolu sur ses fichiers et informations sans risque de fuite.
+- **Simplicité :** Des infobulles (tooltips) guident l'utilisateur sur chaque option.
 
+- **Rapidité :** Traitement optimisé en mémoire vive (RAM) pour une vitesse d'exécution maximale.
 
+- **Contrôle total :** L'utilisateur garde un contrôle absolu sur ses fichiers et informations sans risque de fuite.
 
 ## Installation
-
-
 
 1. Téléchargez le fichier exécutable.
 2. Double-cliquez sur le fichier téléchargé pour lancer l'installation.
 3. Suivez les instructions à l'écran pour compléter l'installation.
 
-
-
 ## Contact
-
-
 
 Pour toute question ou assistance supplémentaire, vous pouvez me contacter à l'adresse email : app.sencie@gmail.com.
 
 Merci d'utiliser **"Simple Text Extractor"** !
-
