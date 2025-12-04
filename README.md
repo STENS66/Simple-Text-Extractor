@@ -9,6 +9,10 @@
 
 Cette version 1.1 introduit une nouvelle architecture robuste, une interface rafraîchie et des fonctionnalités de productivité avancées comme le traitement par lots.
 
+## Prévisualisation
+
+![Capture d'écran application Simple=Text=Extractor](https://github.com/STENS66/Simple-Text-Extractor/tree/main/images/image_app.png?raw=true)
+
 ### Fonctionnalités
 
 - **Confidentialité Totale :** Toutes les opérations sont effectuées localement sans connexion internet.
