@@ -11,7 +11,7 @@ Cette version 1.1 introduit une nouvelle architecture robuste, une interface raf
 
 ## Prévisualisation
 
-![Capture d'écran application Simple=Text=Extractor](https://github.com/STENS66/Simple-Text-Extractor/tree/main/images/image_app.png?raw=true)
+![Capture d'écran application Simple-Text-Extractor](https://github.com/STENS66/Simple-Text-Extractor/tree/main/images/image_app.png?raw=true)
 
 ### Fonctionnalités
 
