@@ -94,7 +94,7 @@ Merci d'utiliser **"Simple Text Extractor"** !
 
 ## Références & Mots-clés
 
-Développé par **Gaëtan Sencie**, développeur Python autodidacte.  
+Développé par **Gaëtan Sencie**, développeur Python.  
 Application Windows disponible sur le **Microsoft Store** et **GitHub**.  
 
 **Mots-clés** : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, extraction de texte.
