@@ -1,13 +1,16 @@
 # Simple Text Extractor - Version française 1.1
+**Disponible sur le Microsoft Store**
 
 # Copyright © Gaëtan Sencie 2025
 # Tous droits réservés.
+
+---
 
 ## Description
 
 **"Simple Text Extractor"** est une application de bureau moderne permettant d'extraire de manière sécurisée le texte à partir de vos fichiers PDF images, PNG, JPG, JPEG, TIFF ou BMP rapidement et efficacement. Elle fonctionne exclusivement en local sur l'ordinateur de l'utilisateur, garantissant ainsi une sécurité maximale.
 
-Cette version 1.1 introduit une nouvelle architecture robuste, une interface rafraîchie et des fonctionnalités de productivité avancées comme le traitement par lots.
+Cette application est officiellement validée et publiée sur le Microsoft Store, garantissant sécurité et fiabilité. Elle propose une architecture robuste, une interface moderne et des fonctionnalités avancées comme le traitement par lots.
 
 ## Prévisualisation
 
@@ -75,14 +78,24 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 
 - **Contrôle total :** L'utilisateur garde un contrôle absolu sur ses fichiers et informations sans risque de fuite.
 
-## Installation
+## Téléchargement
 
-1. Téléchargez le fichier exécutable.
-2. Double-cliquez sur le fichier téléchargé pour lancer l'installation.
-3. Suivez les instructions à l'écran pour compléter l'installation.
+- [Télécharger depuis le Microsoft Store](https://apps.microsoft.com/detail/9NVRKF4X80JZ?hl=fr-be&gl=BE&ocid=pdpshare)
+- [Releases GitHub (versions alternatives)](https://github.com/STENS66/Simple-Text-Extractor/releases)
 
 ## Contact
 
-Pour toute question ou assistance supplémentaire, vous pouvez me contacter à l'adresse email : app.sencie@gmail.com.
+- Email : app.sencie@gmail.com  
+- LinkedIn : [Gaëtan Sencie](https://www.linkedin.com/in/gaetan-sencie)  
+- GitHub : [STENS66](https://github.com/STENS66)
 
 Merci d'utiliser **"Simple Text Extractor"** !
+
+---
+
+## Références & Mots-clés
+
+Développé par **Gaëtan Sencie**, développeur Python autodidacte.  
+Application Windows disponible sur le **Microsoft Store** et **GitHub**.  
+
+**Mots-clés** : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, extraction de texte.
