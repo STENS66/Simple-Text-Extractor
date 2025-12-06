@@ -4,7 +4,6 @@
 # Copyright © Gaëtan Sencie 2025
 # Tous droits réservés.
 
----
 
 ## Description
 
@@ -86,7 +85,7 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 ## Contact
 
 - Email : app.sencie@gmail.com  
-- LinkedIn : [Gaëtan Sencie](https://www.linkedin.com/in/gaetan-sencie)  
+- LinkedIn : [Gaëtan Sencie](https://www.linkedin.com/in/ga%C3%ABtan-sencie-applications-python)  
 - GitHub : [STENS66](https://github.com/STENS66)
 
 Merci d'utiliser **"Simple Text Extractor"** !
