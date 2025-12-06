@@ -9,7 +9,7 @@
 
 **"Simple Text Extractor"** est une application de bureau moderne permettant d'extraire de manière sécurisée le texte à partir de vos fichiers PDF images, PNG, JPG, JPEG, TIFF ou BMP rapidement et efficacement. Elle fonctionne exclusivement en local sur l'ordinateur de l'utilisateur, garantissant ainsi une sécurité maximale.
 
-Cette application est officiellement validée et publiée sur le Microsoft Store, garantissant sécurité et fiabilité. Elle propose une architecture robuste, une interface moderne et des fonctionnalités avancées comme le traitement par lots.
+Cette application est officiellement validée et publiée sur le **Microsoft Store**, garantissant sécurité et fiabilité. Elle propose une architecture robuste, une interface moderne et des fonctionnalités avancées comme le traitement par lots.
 
 ## Prévisualisation
 
