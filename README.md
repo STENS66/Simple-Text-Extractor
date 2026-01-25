@@ -6,7 +6,7 @@
 
 ## Description
 
-**"Simple Text Extractor"** is a modern desktop application designed to securely extract text from your PDF, PNG, JPG, JPEG, TIFF, or BMP files quickly and efficiently. It operates exclusively locally on the user's computer, ensuring maximum security.
+**Simple Text Extractor** is a fast, 100% offline desktop OCR application. Securely extract text from PDF, PNG, JPG, JPEG, TIFF, or BMP files while ensuring total privacy.
 
 This application is officially validated and published on the **Microsoft Store**, ensuring security and reliability. It features a robust architecture, a modern interface, and advanced features like batch processing.
 
@@ -107,7 +107,7 @@ Windows application available on the **Microsoft Store** and **GitHub**.
 
 ## Description
 
-**"Simple Text Extractor"** est une application de bureau moderne permettant d'extraire de manière sécurisée le texte à partir de vos fichiers PDF images, PNG, JPG, JPEG, TIFF ou BMP rapidement et efficacement. Elle fonctionne exclusivement en local sur l'ordinateur de l'utilisateur, garantissant ainsi une sécurité maximale.
+**Simple Text Extractor** est une application OCR de bureau rapide et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers PDF, PNG, JPG, JPEG, TIFF ou BMP tout en garantissant une confidentialité totale.
 
 Cette application est officiellement validée et publiée sur le **Microsoft Store**, garantissant sécurité et fiabilité. Elle propose une architecture robuste, une interface moderne et des fonctionnalités avancées comme le traitement par lots.
 
