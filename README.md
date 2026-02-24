@@ -1,18 +1,27 @@
 # Simple Text Extractor - English Version 1.1
-**Available on the Microsoft Store**
+**Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
 # All rights reserved.
 
 ## Description
 
-**Simple Text Extractor** is a fast, 100% offline desktop OCR application. Securely extract text from PDF, PNG, JPG, JPEG, TIFF, or BMP files while ensuring total privacy.
+**Simple Text Extractor** is a fast, high-performance, and **100% offline** desktop OCR application. Securely extract text from your **PDF, PNG, JPG, JPEG, TIFF, or BMP** files while ensuring total privacy, as the application runs exclusively locally on your computer.
 
-This application is officially validated and published on the **Microsoft Store**, ensuring security and reliability. It features a robust architecture, a modern interface, and advanced features like batch processing.
+This **version 1.1** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a **"stateless" architecture**, guaranteeing maximum stability even during heavy processing tasks.
+
+Validated and published on the **Microsoft Store and the Snap Store**, it offers a robust solution, a simple interface, and useful features such as **batch processing**. By leveraging the power of **Tesseract OCR**, **Simple Text Extractor** combines agility and data security for reliable and validated distribution.
 
 ## Preview
 
 ![Screenshot of the Simple-Text-Extractor app](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/image_app.png?raw=true)
+
+### Compatibility
+
+Desktop application designed for:
+
+* **Windows**: 10 and 11 (64-bit).
+* **Linux**: Available via Snap package on **Ubuntu** and compatible distributions.
 
 ### Features
 
@@ -74,9 +83,29 @@ To extract text with **"Simple Text Extractor"**:
 
 - **Total Control:** The user retains absolute control over their files and information with no risk of leakage.
 
+### Snap Store & Linux Specifics (Strict Confinement)
+
+**Turnkey Experience**: The Linux (Snap) version is an **"all-in-one"** package under strict confinement. It comes pre-packaged with the **Tesseract OCR** engine and language dictionaries (**English, French, German, Dutch, Italian, Spanish, Portuguese, Chinese, Arabic, and Japanese**). No complex installation is required.
+
+💡 **Tip:** Using Wayland? If Drag & Drop doesn't work, please use the "Add Files" button or switch to an X11 session.
+
+⚠️ **Note regarding external drives (USB/SD)**: Since the application runs in a secured environment, it cannot access your external drives by default. If your files are stored on a USB flash drive or a second hard drive, you must grant access by running this command once in your terminal:
+
+
+```
+sudo snap connect simple-text-extractor:removable-media
+```
+
+
 ## Download
 
 - [Download from Microsoft Store](https://apps.microsoft.com/detail/9NVRKF4X80JZ?hl=en-us&gl=US)
+- [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/simple-text-extractor)
+- Or via the terminal:
+
+  ```
+  sudo snap install simple-text-extractor
+
 - [GitHub Releases](https://github.com/STENS66/Simple-Text-Extractor/releases)
 
 ## Contact
@@ -92,14 +121,15 @@ Thank you for using **"Simple Text Extractor"**!
 ## References & Keywords
 
 Developed by **Gaëtan Sencie**, Python developer.
-Windows application available on the **Microsoft Store** and **GitHub**.
 
-**Keywords**: OCR, privacy, offline application, data security, PDF conversion, text extraction.
+**Simple Text Extractor** is officially available on the **Microsoft Store**, **GitHub**, and the **Snap Store**, ensuring reliable and validated distribution.
+
+**Keywords**: OCR, privacy, offline application, data security, PDF conversion, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
 
 ---
 
 # Simple Text Extractor - Version française 1.1
-**Disponible sur le Microsoft Store**
+**Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
 # Tous droits réservés.
@@ -107,13 +137,22 @@ Windows application available on the **Microsoft Store** and **GitHub**.
 
 ## Description
 
-**Simple Text Extractor** est une application OCR de bureau rapide et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers PDF, PNG, JPG, JPEG, TIFF ou BMP tout en garantissant une confidentialité totale.
+**Simple Text Extractor** est une application OCR de bureau rapide, performante et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers **PDF, PNG, JPG, JPEG, TIFF ou BMP** tout en garantissant une confidentialité totale, puisque l'application fonctionne exclusivement en local sur votre ordinateur.
 
-Cette application est officiellement validée et publiée sur le **Microsoft Store**, garantissant sécurité et fiabilité. Elle propose une architecture robuste, une interface moderne et des fonctionnalités avancées comme le traitement par lots.
+Cette **version 1.1** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et une **architecture "stateless" (sans état)** garantissant une stabilité maximale, même lors de traitements lourds.
+
+Validée et publiée sur le **Microsoft Store et le Snap Store**, elle offre une solution robuste, une interface simple et des fonctionnalités utiles comme le **traitement par lots**. En utilisant la puissance de **Tesseract OCR**, Simple Text Extractor combine agilité et sécurité des données pour une diffusion fiable et validée.
 
 ## Prévisualisation
 
 ![Capture d'écran de l'application Simple-Text-Extractor](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/image_app.png?raw=true)
+
+### Compatibilité
+
+Application de bureau conçue pour :
+
+* **Windows** : 10 et 11 (64 bits).
+* **Linux** : Disponible via paquet Snap sur **Ubuntu** et distributions compatibles.
 
 ### Fonctionnalités
 
@@ -177,10 +216,29 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 
 - **Contrôle total :** L'utilisateur garde un contrôle absolu sur ses fichiers et informations sans risque de fuite.
 
+### Spécificités Snap Store & Linux (Confinement Strict)
+
+**Expérience Clé en Main** : La version Linux (Snap) est un paquet **"tout-en-un"** en confinement strict. Elle est livrée avec le moteur **Tesseract OCR** et les dictionnaires de langues (**Français,Anglais,Allemand,Néerlandais,Italien,Espagnol,Portugais,Chinois,Arabe et Japonais**). Aucune installation complexe n'est requise.
+
+💡 **Astuce :** Vous utilisez Wayland ? Si le « Glisser-Déposer » ne fonctionne pas, veuillez utiliser le bouton « Ajouter des fichiers » ou passer à une session X11.
+
+⚠️ **Note concernant les disques externes (USB/SD)** : L'application s'exécutant dans un environnement sécurisé, elle ne peut pas accéder à vos disques externes par défaut. Si vos fichiers sont stockés sur une clé USB ou un second disque dur, vous devez autoriser l'accès en exécutant cette commande une seule fois dans votre terminal :
+
+```
+sudo snap connect simple-text-extractor:removable-media
+```
+
 ## Téléchargement
 
 - [Télécharger depuis le Microsoft Store](https://apps.microsoft.com/detail/9NVRKF4X80JZ?hl=fr-be&gl=BE&ocid=pdpshare)
-- [Releases GitHub](https://github.com/STENS66/Simple-Text-Extractor/releases)
+- [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/fr/snap-store-black.svg)](https://snapcraft.io/simple-text-extractor)
+  
+- Ou via le terminal :
+
+
+```
+sudo snap install simple-text-extractor
+```
 
 ## Contact
 
@@ -195,6 +253,7 @@ Merci d'utiliser **"Simple Text Extractor"** !
 ## Références & Mots-clés
 
 Développé par **Gaëtan Sencie**, développeur Python.
-Application Windows disponible sur le **Microsoft Store** et **GitHub**.
 
-**Mots-clés** : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, extraction de texte.
+**Simple Text Extractor** est officiellement disponible sur le **Microsoft Store**, **GitHub** et le **Snap Store**, garantissant une diffusion fiable et validée.
+
+**Mots-clés** : Mots-clés : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
