@@ -1,6 +1,6 @@
 # Privacy Policy "Simple Text Extractor"
 
-Privacy Policy for the different versions of the "Simple Text Extractor" application.
+Privacy Policy for the different versions of the **"Simple Text Extractor"** application.
 
 ### **Data Collection**
 
@@ -43,7 +43,7 @@ For any questions or requests regarding the privacy of your data, you can contac
 
 # Politique de confidentialité "Simple Text Extractor"
 
-Politique de confidentialité pour les différentes versions de l'application "Simple Text Extractor".
+Politique de confidentialité pour les différentes versions de l'application **"Simple Text Extractor"**.
 
 ### **Collecte de données**
 
