@@ -1,4 +1,4 @@
-# Simple Text Extractor - English Version 1.1
+# Simple Text Extractor - English Version 1.2
 **Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -8,7 +8,7 @@
 
 **Simple Text Extractor** is a fast, high-performance, and **100% offline** desktop OCR application. Securely extract text from your **PDF, PNG, JPG, JPEG, TIFF, or BMP** files while ensuring total privacy, as the application runs exclusively locally on your computer.
 
-This **version 1.1** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a **"stateless" architecture**, guaranteeing maximum stability even during heavy processing tasks.
+This **version 1.2** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a **"stateless" architecture**, guaranteeing maximum stability even during heavy processing tasks.
 
 Validated and published on the **Microsoft Store and the Snap Store**, it offers a robust solution, a simple interface, and useful features such as **batch processing**. By leveraging the power of **Tesseract OCR**, **Simple Text Extractor** combines agility and data security for reliable and validated distribution.
 
@@ -26,6 +26,8 @@ Desktop application designed for:
 ### Features
 
 - **Total Privacy:** All operations are performed locally without an internet connection.
+
+- **Multilingual Support (17+ Languages):** Native optical recognition for French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Arabic, Japanese, Russian, Turkish, Vietnamese, Norwegian, Swedish, Danish, and Greek.
 
 - **Modern Interface:** New fluid and ergonomic graphical interface (based on CustomTkinter) with high-resolution screen support.
 
@@ -51,7 +53,13 @@ To extract text with **"Simple Text Extractor"**:
 
 - Click the "Choose Input PDF or Image" button or simply drag your files (PDF or Images) into the application window.
 
-**2. Configure output (Optional):**
+**2. Select the OCR Language (Crucial):**
+
+In the 'OCR Language' dropdown menu, choose the language corresponding to your document's text (e.g., French, Greek, Chinese, etc.).
+
+Note: Selecting the wrong language will directly impact the accuracy of the text recognition.
+
+**3. Configure output (Optional):**
 
 - By default, files are saved in the same folder as the source.
 
@@ -59,13 +67,13 @@ To extract text with **"Simple Text Extractor"**:
 
 - Check the "Archiving Format (PDF/A)" box if you want a document optimized for long-term preservation.
 
-**3. Start processing:**
+**4. Start processing:**
 
 - Check the list of pending files.
 
 - Click "Start OCR".
 
-**4. Results:**
+**5. Results:**
 
 - Follow the global and detailed progress via the loading bar.
 
@@ -85,7 +93,7 @@ To extract text with **"Simple Text Extractor"**:
 
 ### Snap Store & Linux Specifics (Strict Confinement)
 
-**Turnkey Experience**: The Linux (Snap) version is an **"all-in-one"** package under strict confinement. It comes pre-packaged with the **Tesseract OCR** engine and language dictionaries (**English, French, German, Dutch, Italian, Spanish, Portuguese, Chinese, Arabic, and Japanese**). No complex installation is required.
+**Turnkey Experience**: The Linux (Snap) version is an **"all-in-one"** package under strict confinement. It comes pre-packaged with the **Tesseract OCR** engine and language dictionaries (**French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Japanese, Arabic, Russian, Turkish, Vietnamese, Swedish, Norwegian, Danish, and Greek**). No complex installation is required.
 
 💡 **Tip:** Using Wayland? If Drag & Drop doesn't work, please use the "Add Files" button or switch to an X11 session.
 
@@ -128,7 +136,7 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 ---
 
-# Simple Text Extractor - Version française 1.1
+# Simple Text Extractor - Version française 1.2
 **Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -139,7 +147,7 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 **Simple Text Extractor** est une application OCR de bureau rapide, performante et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers **PDF, PNG, JPG, JPEG, TIFF ou BMP** tout en garantissant une confidentialité totale, puisque l'application fonctionne exclusivement en local sur votre ordinateur.
 
-Cette **version 1.1** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et une **architecture "stateless" (sans état)** garantissant une stabilité maximale, même lors de traitements lourds.
+Cette **version 1.2** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et une **architecture "stateless" (sans état)** garantissant une stabilité maximale, même lors de traitements lourds.
 
 Validée et publiée sur le **Microsoft Store et le Snap Store**, elle offre une solution robuste, une interface simple et des fonctionnalités utiles comme le **traitement par lots**. En utilisant la puissance de **Tesseract OCR**, Simple Text Extractor combine agilité et sécurité des données pour une diffusion fiable et validée.
 
@@ -157,6 +165,8 @@ Application de bureau conçue pour :
 ### Fonctionnalités
 
 - **Confidentialité Totale :** Toutes les opérations sont effectuées localement sans connexion internet.
+  
+- **Support Multilingue (17+ Langues) :** Reconnaissance optique native pour le Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Arabe, Japonais, Russe, Turc, Vietnamien, Norvégien, Suédois, Danois et Grec.
 
 - **Interface Moderne :** Nouvelle interface graphique fluide et ergonomique (basée sur CustomTkinter) avec support des écrans haute résolution.
 
@@ -183,7 +193,13 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 
 - Cliquez sur le bouton "Choisir PDF ou Image d'entrée" ou faites simplement glisser vos fichiers (PDF ou Images) dans la fenêtre de l'application.
 
-**2. Configurer la sortie (Optionnel) :**
+**2. Sélectionner la langue OCR (Crucial) :**
+
+Dans le menu déroulant "Langue OCR", choisissez la langue correspondant au texte de vos documents (ex: Français, Grec, Chinois, etc.).
+
+Note : Une mauvaise sélection de langue impactera directement la précision de la reconnaissance de texte.
+
+**3. Configurer la sortie (Optionnel) :**
 
 - Par défaut, les fichiers sont sauvegardés dans le même dossier que la source.
 
@@ -191,13 +207,13 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 
 - Cochez la case "Format Archivage (PDF/A)" si vous souhaitez un document optimisé pour la conservation longue durée.
 
-**3. Lancer le traitement :**
+**4. Lancer le traitement :**
 
 - Vérifiez la liste des fichiers en attente.
 
 - Cliquez sur "Lancer l'OCR".
 
-**4. Résultats :**
+**5. Résultats :**
 
 - Suivez la progression globale et détaillée via la barre de chargement.
 
@@ -218,7 +234,7 @@ Pour extraire du texte avec **"Simple Text Extractor"** :
 
 ### Spécificités Snap Store & Linux (Confinement Strict)
 
-**Expérience Clé en Main** : La version Linux (Snap) est un paquet **"tout-en-un"** en confinement strict. Elle est livrée avec le moteur **Tesseract OCR** et les dictionnaires de langues (**Français,Anglais,Allemand,Néerlandais,Italien,Espagnol,Portugais,Chinois,Arabe et Japonais**). Aucune installation complexe n'est requise.
+**Expérience Clé en Main** : La version Linux (Snap) est un paquet **"tout-en-un"** en confinement strict. Elle est livrée avec le moteur **Tesseract OCR** et les dictionnaires de langues (**Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Japonais, Arabe, Russe, Turc, Vietnamien, Suédois, Norvégien, Danois et Grec**). Aucune installation complexe n'est requise.
 
 💡 **Astuce :** Vous utilisez Wayland ? Si le « Glisser-Déposer » ne fonctionne pas, veuillez utiliser le bouton « Ajouter des fichiers » ou passer à une session X11.
 
