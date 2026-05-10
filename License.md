@@ -5,6 +5,16 @@
 
 This software and all associated files (hereinafter the "Software") are the exclusive property of Gaëtan Sencie (hereinafter the "Author"). The Software is protected by Belgian and international copyright laws as well as international conventions.
 
+## Third-Party Components and Open Source Licenses
+
+This Software utilizes and bundles certain third-party components under open-source licenses. The proprietary license below does not apply to these components. Their respective licenses are acknowledged below:
+
+**Ghostscript**
+This Software distributes the Ghostscript binary executable (e.g., `gs` on Linux/Snap, `gswin64c.exe` on Windows) to provide advanced PDF/A processing capabilities.
+Ghostscript is Copyright (C) Artifex Software, Inc. and is distributed under the GNU Affero General Public License (AGPL) v3.
+The Ghostscript executable is invoked as a separate, independent external process via standard command-line interfaces. It is not dynamically or statically linked to this Software, nor do they share the same memory space or internal data structures. On Linux, Ghostscript is distributed as part of a containerized Snap package alongside the Software, but remains a distinct executable. This architecture constitutes "mere aggregation" as defined by the AGPL v3. Therefore, the AGPL v3 terms apply strictly and exclusively to Ghostscript itself, and do not infect or alter the proprietary license of the Software invoking it.
+For more information and the full AGPL v3 text, please visit: [https://ghostscript.com/releases/gsdnld.html](https://ghostscript.com/releases/gsdnld.html)
+
 # 1. Grant of License:
 
 The User is authorized to use the Software for strictly personal use. Any distribution, copying, modification, or commercial use of the Software, in whole or in part, is strictly prohibited without the prior written consent of the Author. Personal use explicitly excludes any commercial activity, even if performed free of charge.
@@ -47,6 +57,16 @@ Done in Boncelles (Belgium), 2026.
 # Tous droits réservés.
 
 Le présent logiciel et tous les fichiers associés (ci-après le "Logiciel") sont la propriété exclusive de Gaëtan Sencie (ci-après l'"Auteur"). Le Logiciel est protégé par les lois belges et internationales sur le droit d'auteur ainsi que par les conventions internationales.
+
+## Composants Tiers et Licences Open Source
+
+Ce Logiciel utilise et distribue certains composants tiers sous licences open source. La licence propriétaire ci-dessous ne s'applique pas à ces composants. Leurs licences respectives sont reconnues ci-dessous :
+
+**Ghostscript**
+Ce Logiciel distribue l'exécutable binaire Ghostscript (ex. : `gs` sous Linux/Snap, `gswin64c.exe` sous Windows) pour fournir des fonctionnalités avancées de traitement PDF/A.
+Ghostscript est Copyright (C) Artifex Software, Inc. et est distribué sous la Licence Publique Générale Affero GNU (AGPL) v3.
+L'exécutable Ghostscript est invoqué en tant que processus externe séparé et indépendant via des interfaces en ligne de commande standard. Il n'est lié ni dynamiquement ni statiquement à ce Logiciel, et ils ne partagent ni le même espace mémoire ni les mêmes structures de données internes. Sous Linux, Ghostscript est distribué au sein d'un paquet conteneurisé Snap aux côtés du Logiciel, mais demeure un exécutable distinct. Cette architecture constitue une "simple agrégation" (mere aggregation) telle que définie par l'AGPL v3. Par conséquent, les conditions de l'AGPL v3 s'appliquent strictement et exclusivement à Ghostscript lui-même, et n'infectent ni ne modifient la licence propriétaire du Logiciel l'invoquant.
+Pour plus d'informations et consulter le texte complet de l'AGPL v3, veuillez visiter : [https://ghostscript.com/releases/gsdnld.html](https://ghostscript.com/releases/gsdnld.html)
 
 # 1. Droits d’utilisation :
 
