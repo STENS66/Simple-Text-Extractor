@@ -1,4 +1,4 @@
-# Simple Text Extractor - English Version 1.2
+# Simple Text Extractor - English Version 1.3
 **Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -8,7 +8,7 @@
 
 **Simple Text Extractor** is a fast, high-performance, and **100% offline** desktop OCR application. Securely extract text from your **PDF, PNG, JPG, JPEG, TIFF, or BMP** files while ensuring total privacy, as the application runs exclusively locally on your computer.
 
-This **version 1.2** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a **"stateless" architecture**, guaranteeing maximum stability even during heavy processing tasks.
+This **version 1.3** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a powerful **Smart PDF Merger**, ensuring maximum flexibility for your documents.
 
 Validated and published on the **Microsoft Store and the Snap Store**, it offers a robust solution, a simple interface, and useful features such as **batch processing**. By leveraging the power of **Tesseract OCR**, **Simple Text Extractor** combines agility and data security for reliable and validated distribution.
 
@@ -26,6 +26,14 @@ Desktop application designed for:
 ### Features
 
 - **Total Privacy:** All operations are performed locally without an internet connection.
+
+- **Smart PDF Merger:** New advanced tool to combine multiple files into a single document with 3 specialized modes:
+
+  - **All Pages:** Simple and fast merge of all documents.
+
+  - **No Blanks:** Automatically detects and removes blank pages (based on ink coverage).
+
+  - **Intelligent (Duplex):** Ensures perfect parity for double-sided printing by adding a blank page only where necessary.
 
 - **Multilingual Support (17+ Languages):** Native optical recognition for French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Arabic, Japanese, Russian, Turkish, Vietnamese, Norwegian, Swedish, Danish, and Greek.
 
@@ -136,7 +144,7 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 ---
 
-# Simple Text Extractor - Version française 1.2
+# Simple Text Extractor - Version française 1.3
 **Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -147,7 +155,7 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 **Simple Text Extractor** est une application OCR de bureau rapide, performante et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers **PDF, PNG, JPG, JPEG, TIFF ou BMP** tout en garantissant une confidentialité totale, puisque l'application fonctionne exclusivement en local sur votre ordinateur.
 
-Cette **version 1.2** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et une **architecture "stateless" (sans état)** garantissant une stabilité maximale, même lors de traitements lourds.
+Cette **version 1.3** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et l'introduction d'un Fusionneur de PDF Intelligent, garantissant une flexibilité maximale pour vos documents.
 
 Validée et publiée sur le **Microsoft Store et le Snap Store**, elle offre une solution robuste, une interface simple et des fonctionnalités utiles comme le **traitement par lots**. En utilisant la puissance de **Tesseract OCR**, Simple Text Extractor combine agilité et sécurité des données pour une diffusion fiable et validée.
 
@@ -165,6 +173,14 @@ Application de bureau conçue pour :
 ### Fonctionnalités
 
 - **Confidentialité Totale :** Toutes les opérations sont effectuées localement sans connexion internet.
+
+- **Fusion PDF Intelligente :** Nouvel outil avancé pour combiner plusieurs fichiers en un seul document avec 3 modes spécialisés :
+
+  - **Toutes les pages :** Fusion simple et rapide de l'intégralité des documents.
+
+  - **Sans pages blanches :** Détecte et supprime automatiquement les pages vides (basé sur la couverture d'encre).
+
+  - **Intelligent (Recto-Verso) :** Assure une parité parfaite pour l'impression recto-verso en ajoutant une page blanche uniquement là où c'est nécessaire.
   
 - **Support Multilingue (17+ Langues) :** Reconnaissance optique native pour le Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Arabe, Japonais, Russe, Turc, Vietnamien, Norvégien, Suédois, Danois et Grec.
 
@@ -272,4 +288,4 @@ Développé par **Gaëtan Sencie**, développeur Python.
 
 **Simple Text Extractor** est officiellement disponible sur le **Microsoft Store**, **GitHub** et le **Snap Store**, garantissant une diffusion fiable et validée.
 
-**Mots-clés** : Mots-clés : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
+**Mots-clés** : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
