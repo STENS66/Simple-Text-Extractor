@@ -1,4 +1,4 @@
-# Simple Text Extractor - English Version 1.3
+# Simple Text Extractor - English Version 1.4
 **Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -6,15 +6,15 @@
 
 ## Description
 
-**Simple Text Extractor** is a fast, high-performance, and **100% offline** desktop OCR application. Securely extract text from your **PDF, PNG, JPG, JPEG, TIFF, or BMP** files while ensuring total privacy, as the application runs exclusively locally on your computer.
+**Simple Text Extractor** is a fast, high-performance, and **100% offline** desktop document workstation. More than a simple OCR utility, it is engineered from the ground up to be a **privacy-first solution**, guaranteeing absolute data confidentiality. Securely extract text, merge documents, and read sensitive files while ensuring your data never leaves your computer.
 
-This **version 1.3** marks a major milestone with the introduction of **Linux (Ubuntu) support** via the **Snap Store** and a powerful **Smart PDF Merger**, ensuring maximum flexibility for your documents.
+The application combines a powerful multilingual **OCR engine**, an intelligent **PDF Merger**, and an innovative built-in **Secure Viewer**. Validated and published on the **Microsoft Store and the Snap Store**, it provides a robust, seamless, and completely isolated circuit to manage, process, and inspect your documents locally with zero risk of data leakage.
 
-Validated and published on the **Microsoft Store and the Snap Store**, it offers a robust solution, a simple interface, and useful features such as **batch processing**. By leveraging the power of **Tesseract OCR**, **Simple Text Extractor** combines agility and data security for reliable and validated distribution.
 
 ## Preview
 
 ![Screenshot of the Simple-Text-Extractor app](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/image_app.png?raw=true)
+
 
 ### Compatibility
 
@@ -23,9 +23,21 @@ Desktop application designed for:
 * **Windows**: 10 and 11 (64-bit).
 * **Linux**: Available via Snap package on **Ubuntu** and compatible distributions.
 
+
 ### Features
 
-- **Total Privacy:** All operations are performed locally without an internet connection.
+- **Total Privacy & Zero-Persistence:** All operations are performed strictly locally without an internet connection. The application handles data from end to end in closed-loop isolation.
+
+- **Embedded Secure Viewer:** Open and consult your PDF files **and images (PNG, JPG, JPEG, TIFF, BMP)** instantly within a natively sandboxed window, without relying on web browsers, system image viewers, or unsecure third-party readers.
+  - **In-Memory Processing:** Documents and images are loaded directly into RAM using a native rendering engine. All intermediate processing steps and view caches are handled strictly in-memory, leaving zero residual technical traces on the disk after execution.
+  - **In-App Validation:** Quickly run a full-text search or copy text directly inside the viewer to validate your OCR results instantly.
+  - **Secure Printing:** A clean, built-in printing module allows generating physical copies safely without passing through vulnerable system print spools.
+
+- **Enhanced Security & Core Isolation:**
+  - **Log Anonymization (CWE-209):** All system logs are automatically scrubbed to mask usernames and personal folder paths, eliminating any risk of information leakage.
+  - **Log Injection Mitigation (CWE-117):** Hardened internal logging layers sanitize third-party process streams (`stdout`/`stderr`) to systematically prevent malicious metadata from falsifying system logs.
+  - **Atomic File Handling (CWE-377):** Temporary file processing is restricted to secure, isolated "bunkers" with tight folder permissions (0700) and immediate atomic deletion to prevent data persistence.
+  - **Malicious Protection:** Built-in defense mechanisms safeguard the system against malicious files like decompression bombs.
 
 - **Smart PDF Merger:** New advanced tool to combine multiple files into a single document with 3 specialized modes:
 
@@ -37,11 +49,9 @@ Desktop application designed for:
 
 - **Multilingual Support (17+ Languages):** Native optical recognition for French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Arabic, Japanese, Russian, Turkish, Vietnamese, Norwegian, Swedish, Danish, and Greek.
 
-- **Modern Interface:** New fluid and ergonomic graphical interface (based on CustomTkinter) with high-resolution screen support.
+- **Modern Interface & Batch Processing:** Fluid and ergonomic graphical interface with high-resolution screen support. Drag and drop dozens of files into the queue to process them automatically in sequence without the UI freezing.
 
-- **Batch Processing:** Add as many files as you wish to the queue and process them all automatically in sequence.
-
-- **Drag & Drop:** Simply drag your files directly into the window to add them instantly.
+- **Customizable Themes:** Easily switch between five tailored visual modes: Cyber-Electric, Arcade, Neon, Dark, or System Default, via the dedicated "Themes" tab in the application menu for optimal reading comfort.
 
 - **Metadata Analysis:** Immediate visualization of technical details (Size, Page count, DPI Resolution, PDF/A Format) before processing.
 
@@ -49,55 +59,43 @@ Desktop application designed for:
 
 - **Flexible Management:** Ability to remove files from the list one by one or clear everything in a single click.
 
-- **Compatible:** Supports PDF, PNG, JPG, JPEG, TIFF, and BMP files.
 
-- **Zero Configuration:** No administrator rights required, portable, and secure.
+### Supported Formats
+
+The application natively handles both vector and raster documents with optimized processing for each type:
+
+* **Documents**: `PDF` (including heavy scanned volumes and hybrid text/image files).
+* **Images**: `PNG`, `JPG`, `JPEG`, `TIFF`, and `BMP`.
+
 
 ### Usage
 
-To extract text with **"Simple Text Extractor"**:
+To process or view documents with **"Simple Text Extractor"**:
 
 **1. Add files:**
-
 - Click the "Choose Input PDF or Image" button or simply drag your files (PDF or Images) into the application window.
 
-**2. Select the OCR Language (Crucial):**
+**2. Select the Action or Language:**
+- For text extraction: In the 'OCR Language' dropdown menu, choose the language corresponding to your document's text. Selecting the right language is crucial for optimal accuracy.
+- For merging: Arrange your documents in the queue and select your preferred merging layout.
 
-In the 'OCR Language' dropdown menu, choose the language corresponding to your document's text (e.g., French, Greek, Chinese, etc.).
+**3. Preview and Inspect (Secure Viewer):**
+- Right-click any processed file in the queue and select **'Secure View'**, or click the **"eye" icon (👁️)** on the final dashboard.
+- Use the built-in search bar to check keywords, select text to copy, or safely print the document.
 
-Note: Selecting the wrong language will directly impact the accuracy of the text recognition.
-
-**3. Configure output (Optional):**
-
-- By default, files are saved in the same folder as the source.
-
-- You can define a specific folder via the "Choose..." button in the Destination section.
-
+**4. Configure output (Optional):**
+- By default, files are saved in the same folder as the source. You can define a specific folder via the "Choose..." button in the Destination section.
 - Check the "Archiving Format (PDF/A)" box if you want a document optimized for long-term preservation.
 
-**4. Start processing:**
+**5. Start processing & Results:**
+- Click "Start OCR" or "Merge PDF". Follow the progress via the loading bar. Once finished, click the displayed links to open the destination folder.
 
-- Check the list of pending files.
-
-- Click "Start OCR".
-
-**5. Results:**
-
-- Follow the global and detailed progress via the loading bar.
-
-- Once finished, click the displayed links to directly open the folder containing your new files (automatically named with the _ocr suffix).
 
 ### Advantages
 
-- **Enhanced Security:** Integrates protections against malicious files (Decompression Bombs) and secures internal process execution.
-
-- **Industrial Stability:** Thanks to a new architecture (Multiprocessing), the application never freezes, even when processing heavy documents.
-
-- **Simplicity:** Tooltips guide the user on every option.
-
-- **Speed:** Optimized RAM processing for maximum execution speed.
-
-- **Total Control:** The user retains absolute control over their files and information with no risk of leakage.
+- **Industrial Stability:** Built on a robust Multiprocessing architecture, ensuring a zero-freeze user interface even with heavy files (up to 2000+ pages).
+- **Absolute Privacy:** Ideal for legal, medical, or corporate data processing since no cache, no internet packets, and no raw stacktraces are leaked outside the local application environment.
+- **Simplicity:** Tooltips guide the user through every single option with no administrative configuration required.
 
 ### Snap Store & Linux Specifics (Strict Confinement)
 
@@ -140,11 +138,11 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 **Simple Text Extractor** is officially available on the **Microsoft Store**, **GitHub**, and the **Snap Store**, ensuring reliable and validated distribution.
 
-**Keywords**: OCR, privacy, offline application, data security, PDF conversion, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
+**Keywords**: OCR, Secure PDF Viewer, PDF Reader, PDF Merger, Local OCR, Privacy-first app, Offline text extractor, Data security, PDF to text, Tesseract OCR, In-Memory viewer, CWE-377, CWE-209, Log Anonymization, Duplex PDF merge, Remove blank pages, PDF/A-1b, Linux Snap, Ubuntu, Windows 11 desktop app, Python, Secure Image Viewer, RAM Image Viewer.
 
 ---
 
-# Simple Text Extractor - Version française 1.3
+# Simple Text Extractor - Version française 1.4
 **Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025
@@ -153,15 +151,15 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 ## Description
 
-**Simple Text Extractor** est une application OCR de bureau rapide, performante et 100% hors ligne. Extrayez en toute sécurité le texte de vos fichiers **PDF, PNG, JPG, JPEG, TIFF ou BMP** tout en garantissant une confidentialité totale, puisque l'application fonctionne exclusivement en local sur votre ordinateur.
+**Simple Text Extractor** est une station de travail documentaire de bureau rapide, performante et **100% hors ligne**. Bien plus qu'un simple outil d'OCR, cette application a été entièrement pensée pour **respecter la vie privée** et garantir une confidentialité absolue de vos données. Extrayez du texte, fusionnez des PDF et visualisez des documents sensibles en toute sécurité, sans que vos fichiers ne quittent jamais votre ordinateur.
 
-Cette **version 1.3** marque une étape majeure avec l'arrivée du **support Linux (Ubuntu)** via le Snap Store et l'introduction d'un Fusionneur de PDF Intelligent, garantissant une flexibilité maximale pour vos documents.
+L'application intègre nativement un puissant moteur de **reconnaissance optique (OCR)**, un système de **fusion de PDF intelligent** et un module innovant de visualisation appelé **Secure Viewer**. Validée et publiée sur le **Microsoft Store et le Snap Store**, elle offre un circuit fermé totalement isolé pour gérer, traiter et contrôler vos documents en local, sans aucun risque de fuite de données.
 
-Validée et publiée sur le **Microsoft Store et le Snap Store**, elle offre une solution robuste, une interface simple et des fonctionnalités utiles comme le **traitement par lots**. En utilisant la puissance de **Tesseract OCR**, Simple Text Extractor combine agilité et sécurité des données pour une diffusion fiable et validée.
 
 ## Prévisualisation
 
 ![Capture d'écran de l'application Simple-Text-Extractor](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/image_app.png?raw=true)
+
 
 ### Compatibilité
 
@@ -169,10 +167,22 @@ Application de bureau conçue pour :
 
 * **Windows** : 10 et 11 (64 bits).
 * **Linux** : Disponible via paquet Snap sur **Ubuntu** et distributions compatibles.
+  
 
 ### Fonctionnalités
 
-- **Confidentialité Totale :** Toutes les opérations sont effectuées localement sans connexion internet.
+- **Confidentialité Totale & Zéro Persistance :** Toutes les opérations sont effectuées exclusivement en local, sans aucune connexion internet ni dépendance à un cloud tiers.
+
+- **Visionneur Sécurisé Intégré (Secure Viewer) :** Ouvrez et consultez vos fichiers PDF ainsi que vos images (PNG, JPG, JPEG, TIFF, BMP) directement dans une fenêtre nativement isolée (sandboxée), sans passer par un navigateur web, une visionneuse système ou un logiciel tiers vulnérable.
+  - **Lecture 100% en mémoire vive (RAM) :** Les documents et les images sont chargés directement dans la RAM à l'aide d'un moteur de rendu natif. Toutes les étapes de traitement intermédiaire et les caches de visualisation sont gérés exclusivement en mémoire vive, ne laissant aucune trace technique résiduelle sur le disque après exécution.
+  - **Validation OCR immédiate :** Un moteur de recherche plein texte et une fonction de copie sont intégrés pour vérifier instantanément la qualité de l'OCR.
+  - **Impression sécurisée :** Module d'impression directe via un canal sécurisé, évitant les spools système non protégés.
+
+- **Sécurité Avancée & Isolation Logique :**
+  - **Anonymisation des logs (CWE-209) :** Les journaux système de l'application masquent et nettoient automatiquement les noms d'utilisateurs et les chemins de fichiers personnels.
+  - **Prévention des injections de logs (CWE-117) :** Les flux de processus tiers (`stdout` et `stderr`) sont strictement filtrés pour empêcher toute métadonnée malveillante ou caractère de contrôle de falsifier les journaux système.
+  - **Gestion atomique des fichiers (CWE-377) :** Les processus s'exécutent dans des "bunkers" temporaires isolés avec des permissions strictes (0700) et une suppression atomique immédiate.
+  - **Protection contre les fichiers malveillants :** Intégration de verrous de sécurité bloquant les fichiers corrompus ou les bombes de décompression.
 
 - **Fusion PDF Intelligente :** Nouvel outil avancé pour combiner plusieurs fichiers en un seul document avec 3 modes spécialisés :
 
@@ -184,11 +194,9 @@ Application de bureau conçue pour :
   
 - **Support Multilingue (17+ Langues) :** Reconnaissance optique native pour le Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Arabe, Japonais, Russe, Turc, Vietnamien, Norvégien, Suédois, Danois et Grec.
 
-- **Interface Moderne :** Nouvelle interface graphique fluide et ergonomique (basée sur CustomTkinter) avec support des écrans haute résolution.
+- **Interface Moderne & Traitement par Lots :** Interface graphique fluide et ergonomique avec support de la haute résolution. Ajoutez des dizaines de fichiers dans la file d'attente par simple Glisser-Déposer (Drag & Drop) pour les traiter en arrière-plan sans gel de l'application.
 
-- **Traitement par Lots (Batch Processing) :** Ajoutez autant de fichiers que vous le souhaitez dans la file d'attente et traitez-les tous automatiquement à la suite.
-
-- **Glisser-Déposer (Drag & Drop) :** Glissez simplement vos fichiers directement dans la fenêtre pour les ajouter instantanément.
+- **Thèmes Personnalisables :** Basculez facilement entre cinq modes visuels sur mesure : Cyber-électrique, Arcade, Néon, Sombre ou Système par défaut, via l'onglet dédié "Thèmes" présent dans le menu de l'application pour un confort de lecture optimal.
 
 - **Analyse des Métadonnées :** Visualisation immédiate des détails techniques (Taille, Nombre de pages, Résolution DPI, Format PDF/A) avant le traitement.
 
@@ -196,57 +204,43 @@ Application de bureau conçue pour :
 
 - **Gestion Flexible :** Possibilité de supprimer des fichiers de la liste un par un ou de tout vider en un clic.
 
-- **Compatible :** Prend en charge les fichiers PDF, PNG, JPG, JPEG, TIFF et BMP.
 
-- **Zéro Configuration :** Aucun droit administrateur requis, portable et sécurisé.
+### Formats Supportés
+
+L'application prend en charge nativement les documents vectoriels et matriciels avec un traitement optimisé pour chaque type :
+
+* **Documents** : `PDF` (incluant les gros volumes scannés et les fichiers hybrides texte/image).
+* **Images** : `PNG`, `JPG`, `JPEG`, `TIFF` et `BMP`.
 
 
 ### Utilisation
 
-Pour extraire du texte avec **"Simple Text Extractor"** :
+Pour traiter ou visualiser des documents avec **"Simple Text Extractor"** :
 
 **1. Ajouter des fichiers :**
-
 - Cliquez sur le bouton "Choisir PDF ou Image d'entrée" ou faites simplement glisser vos fichiers (PDF ou Images) dans la fenêtre de l'application.
 
-**2. Sélectionner la langue OCR (Crucial) :**
+**2. Configurer l'action (OCR ou Fusion) :**
+- Pour l'extraction : Choisissez la langue correspondant au texte dans le menu déroulant "Langue OCR" (essentiel pour la précision).
+- Pour la fusion : Organisez l'ordre de vos fichiers dans la liste et choisissez le mode de fusion voulu.
 
-Dans le menu déroulant "Langue OCR", choisissez la langue correspondant au texte de vos documents (ex: Français, Grec, Chinois, etc.).
+**3. Consulter et inspecter (Secure Viewer) :**
+- Faites un clic droit sur un fichier traité dans la file d'attente et sélectionnez **'Visualiser en mode sécurisé'**, ou cliquez sur l'icône **"œil" (👁️)** sur le tableau de bord de fin.
+- Utilisez la barre de recherche interne pour naviguer dans le texte ou copier des extraits.
 
-Note : Une mauvaise sélection de langue impactera directement la précision de la reconnaissance de texte.
+**4. Configurer la destination (Optionnel) :**
+- Par défaut, les fichiers sont sauvegardés dans le dossier source. Vous pouvez définir un dossier spécifique via le bouton "Choisir..." de la section Destination. Cochez "Format Archivage (PDF/A)" pour une conservation longue durée.
 
-**3. Configurer la sortie (Optionnel) :**
-
-- Par défaut, les fichiers sont sauvegardés dans le même dossier que la source.
-
-- Vous pouvez définir un dossier spécifique via le bouton "Choisir..." dans la section Destination.
-
-- Cochez la case "Format Archivage (PDF/A)" si vous souhaitez un document optimisé pour la conservation longue durée.
-
-**4. Lancer le traitement :**
-
-- Vérifiez la liste des fichiers en attente.
-
-- Cliquez sur "Lancer l'OCR".
-
-**5. Résultats :**
-
-- Suivez la progression globale et détaillée via la barre de chargement.
-
-- Une fois terminé, cliquez sur les liens affichés pour ouvrir directement le dossier contenant vos nouveaux fichiers (nommés automatiquement avec le suffixe _ocr).
+**5. Lancer et obtenir les résultats :**
+- Cliquez sur "Lancer l'OCR" ou "Fusionner les PDF". Suivez la progression sur la barre de chargement. Une fois terminé, cliquez sur les liens pour ouvrir directement le dossier contenant vos nouveaux documents.
 
 
 ### Avantages
 
-- **Sécurité Renforcée :** Intègre des protections contre les fichiers malveillants (Decompression Bombs) et sécurise l'exécution des processus internes.
-
-- **Stabilité Industrielle :** Grâce à une nouvelle architecture (Multiprocessing), l'application ne gèle jamais, même lors du traitement de documents lourds.
-
-- **Simplicité :** Des infobulles (tooltips) guident l'utilisateur sur chaque option.
-
-- **Rapidité :** Traitement optimisé en mémoire vive (RAM) pour une vitesse d'exécution maximale.
-
-- **Contrôle total :** L'utilisateur garde un contrôle absolu sur ses fichiers et informations sans risque de fuite.
+- **Stabilité Industrielle :** Grâce à une architecture basée sur le Multiprocessing, l'interface ne bloque jamais, même sur des documents très lourds (+2000 pages).
+- **Confidentialité Absolue :** Idéal pour les documents juridiques, médicaux ou d'entreprise. Aucun historique n'est conservé sur le disque et les stacktraces brutes sont nettoyées.
+- **Simplicité :** Des infobulles (tooltips) guident l'utilisateur sur chaque option sans aucune configuration requise.
+  
 
 ### Spécificités Snap Store & Linux (Confinement Strict)
 
@@ -272,6 +266,8 @@ sudo snap connect simple-text-extractor:removable-media
 sudo snap install simple-text-extractor
 ```
 
+- [GitHub Releases](https://github.com/STENS66/Simple-Text-Extractor/releases)
+
 ## Contact
 
 - Email : app.sencie@gmail.com
@@ -288,4 +284,4 @@ Développé par **Gaëtan Sencie**, développeur Python.
 
 **Simple Text Extractor** est officiellement disponible sur le **Microsoft Store**, **GitHub** et le **Snap Store**, garantissant une diffusion fiable et validée.
 
-**Mots-clés** : OCR, confidentialité, application hors ligne, sécurité des données, conversion PDF, Tesseract, Tcl/Tk, Linux, Ubuntu, Snap Store, Python.
+**Mots-clés** : OCR sécurisé, Visionneuse PDF sécurisée, Lecteur PDF local, Fusion PDF sans cloud, Extraction de texte hors ligne, Confidentialité des données, Sécurité informatique, Tesseract OCR, Lecture en mémoire vive, Zéro persistance, CWE-377, CWE-209, Anonymisation des logs, Bunker de données, Fusion recto-verso, Suppression pages blanches, PDF/A-1b, Linux Snap, Ubuntu, Application Windows 11, Python, Visionneuse image sécurisée, Visionneuse RAM.
