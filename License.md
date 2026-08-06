@@ -1,6 +1,6 @@
 # Simple Text Extractor - END USER LICENSE AGREEMENT
 
-# Copyright © Gaëtan Sencie 2025
+# Copyright © Gaëtan Sencie 2025-2026
 # All Rights Reserved.
 
 This software and all associated files (hereinafter the "Software") are the exclusive property of Gaëtan Sencie (hereinafter the "Author"). The Software is protected by Belgian and international copyright laws as well as international conventions.
@@ -53,7 +53,7 @@ Done in Boncelles (Belgium), 2026.
 
 # Simple Text Extractor - CONTRAT DE LICENCE UTILISATEUR FINAL
 
-# Copyright © Gaëtan Sencie 2025
+# Copyright © Gaëtan Sencie 2025-2026
 # Tous droits réservés.
 
 Le présent logiciel et tous les fichiers associés (ci-après le "Logiciel") sont la propriété exclusive de Gaëtan Sencie (ci-après l'"Auteur"). Le Logiciel est protégé par les lois belges et internationales sur le droit d'auteur ainsi que par les conventions internationales.
