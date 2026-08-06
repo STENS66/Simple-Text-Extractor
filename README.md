@@ -1,7 +1,7 @@
 # Simple Text Extractor - English Version 1.4
 **Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
-# Copyright © Gaëtan Sencie 2025
+# Copyright © Gaëtan Sencie 2025-2026
 # All rights reserved.
 
 ## Description
@@ -145,7 +145,7 @@ Developed by **Gaëtan Sencie**, Python developer.
 # Simple Text Extractor - Version française 1.4
 **Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
-# Copyright © Gaëtan Sencie 2025
+# Copyright © Gaëtan Sencie 2025-2026
 # Tous droits réservés.
 
 
