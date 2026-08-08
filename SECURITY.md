@@ -8,8 +8,8 @@ Only the versions listed below currently receive security updates.
 
 | Version | Supported | Notes |
 | :--- | :--- | :--- |
-| 1.4.x | ✅ | Current version (Microsoft Store) |
-| < 1.4 | ❌ | End-of-Life / Obsolete |
+| 1.5.x | ✅ | Current version (Microsoft Store) |
+| < 1.5 | ❌ | End-of-Life / Obsolete |
 
 ## Reporting a Vulnerability
 
@@ -40,8 +40,8 @@ Seules les versions listées ci-dessous bénéficient actuellement de mises à j
 
 | Version | Supportée | Notes |
 | :--- | :--- | :--- |
-| 1.4.x | ✅ | Version actuelle (Microsoft Store) |
-| < 1.4 | ❌ | Obsolète |
+| 1.5.x | ✅ | Version actuelle (Microsoft Store) |
+| < 1.5 | ❌ | Obsolète |
 
 ## Signaler une Vulnérabilité
 
