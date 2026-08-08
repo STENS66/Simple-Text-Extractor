@@ -1,4 +1,4 @@
-# Simple Text Extractor - English Version 1.4
+# Simple Text Extractor - English Version 1.5
 **Available on Microsoft Store (Windows) • Available on Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025-2026
@@ -28,7 +28,7 @@ Desktop application designed for:
 
 - **Total Privacy & Zero-Persistence:** All operations are performed strictly locally without an internet connection. The application handles data from end to end in closed-loop isolation.
 
-- **Embedded Secure Viewer:** Open and consult your PDF files **and images (PNG, JPG, JPEG, TIFF, BMP)** instantly within a natively sandboxed window, without relying on web browsers, system image viewers, or unsecure third-party readers.
+- **Embedded Secure Viewer:** Open and consult your **PDF, XPS, OXPS** files **and images (PNG, JPG, JPEG, TIFF, BMP)** instantly within a natively sandboxed window, without relying on web browsers, system image viewers, or unsecure third-party readers.
   - **In-Memory Processing:** Documents and images are loaded directly into RAM using a native rendering engine. All intermediate processing steps and view caches are handled strictly in-memory, leaving zero residual technical traces on the disk after execution.
   - **In-App Validation:** Quickly run a full-text search or copy text directly inside the viewer to validate your OCR results instantly.
   - **Secure Printing:** A clean, built-in printing module allows generating physical copies safely without passing through vulnerable system print spools.
@@ -47,7 +47,9 @@ Desktop application designed for:
 
   - **Intelligent (Duplex):** Ensures perfect parity for double-sided printing by adding a blank page only where necessary.
 
-- **Multilingual Support (17+ Languages):** Native optical recognition for French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Arabic, Japanese, Russian, Turkish, Vietnamese, Norwegian, Swedish, Danish, and Greek.
+- **Multilingual Interface:** The application speaks your language! The interface and dynamic background messages dynamically adapt to 7 languages: **English, French, German, Spanish, Italian, Brazilian Portuguese, and Japanese**.
+
+- **Multilingual OCR Support (17+ Languages):** Native optical recognition for French, English, German, Dutch, Italian, Spanish, Portuguese, Chinese (Simplified), Arabic, Japanese, Russian, Turkish, Vietnamese, Norwegian, Swedish, Danish, and Greek.
 
 - **Modern Interface & Batch Processing:** Fluid and ergonomic graphical interface with high-resolution screen support. Drag and drop dozens of files into the queue to process them automatically in sequence without the UI freezing.
 
@@ -64,7 +66,7 @@ Desktop application designed for:
 
 The application natively handles both vector and raster documents with optimized processing for each type:
 
-* **Documents**: `PDF` (including heavy scanned volumes and hybrid text/image files).
+* **Documents**: `PDF` (including heavy scanned volumes and hybrid text/image files), `XPS`, and `OXPS`.
 * **Images**: `PNG`, `JPG`, `JPEG`, `TIFF`, and `BMP`.
 
 
@@ -73,7 +75,7 @@ The application natively handles both vector and raster documents with optimized
 To process or view documents with **"Simple Text Extractor"**:
 
 **1. Add files:**
-- Click the "Choose Input PDF or Image" button or simply drag your files (PDF or Images) into the application window.
+- Click the "Choose Input PDF or Image" button or simply drag your files (PDF, XPS, OXPS, or Images) into the application window.
 
 **2. Select the Action or Language:**
 - For text extraction: In the 'OCR Language' dropdown menu, choose the language corresponding to your document's text. Selecting the right language is crucial for optimal accuracy.
@@ -138,11 +140,11 @@ Developed by **Gaëtan Sencie**, Python developer.
 
 **Simple Text Extractor** is officially available on the **Microsoft Store**, **GitHub**, and the **Snap Store**, ensuring reliable and validated distribution.
 
-**Keywords**: OCR, Secure PDF Viewer, PDF Reader, PDF Merger, Local OCR, Privacy-first app, Offline text extractor, Data security, PDF to text, Tesseract OCR, In-Memory viewer, CWE-377, CWE-209, Log Anonymization, Duplex PDF merge, Remove blank pages, PDF/A-1b, Linux Snap, Ubuntu, Windows 11 desktop app, Python, Secure Image Viewer, RAM Image Viewer.
+**Keywords**: OCR, Secure PDF Viewer, PDF Reader, PDF Merger, Local OCR, Privacy-first app, Offline text extractor, Data security, PDF to text, Tesseract OCR, In-Memory viewer, CWE-377, CWE-209, Log Anonymization, Duplex PDF merge, Remove blank pages, PDF/A-1b, Linux Snap, Ubuntu, Windows 11 desktop app, Python, Secure Image Viewer, RAM Image Viewer, XPS Viewer, OXPS OCR, Multilingual UI.
 
 ---
 
-# Simple Text Extractor - Version française 1.4
+# Simple Text Extractor - Version française 1.5
 **Disponible sur le Microsoft Store (Windows) • Disponible sur le Snap Store (Linux)**
 
 # Copyright © Gaëtan Sencie 2025-2026
@@ -173,7 +175,7 @@ Application de bureau conçue pour :
 
 - **Confidentialité Totale & Zéro Persistance :** Toutes les opérations sont effectuées exclusivement en local, sans aucune connexion internet ni dépendance à un cloud tiers.
 
-- **Visionneur Sécurisé Intégré (Secure Viewer) :** Ouvrez et consultez vos fichiers PDF ainsi que vos images (PNG, JPG, JPEG, TIFF, BMP) directement dans une fenêtre nativement isolée (sandboxée), sans passer par un navigateur web, une visionneuse système ou un logiciel tiers vulnérable.
+- **Visionneur Sécurisé Intégré (Secure Viewer) :** Ouvrez et consultez vos fichiers **PDF, XPS, OXPS** ainsi que vos **images (PNG, JPG, JPEG, TIFF, BMP)** directement dans une fenêtre nativement isolée (sandboxée), sans passer par un navigateur web, une visionneuse système ou un logiciel tiers vulnérable.
   - **Lecture 100% en mémoire vive (RAM) :** Les documents et les images sont chargés directement dans la RAM à l'aide d'un moteur de rendu natif. Toutes les étapes de traitement intermédiaire et les caches de visualisation sont gérés exclusivement en mémoire vive, ne laissant aucune trace technique résiduelle sur le disque après exécution.
   - **Validation OCR immédiate :** Un moteur de recherche plein texte et une fonction de copie sont intégrés pour vérifier instantanément la qualité de l'OCR.
   - **Impression sécurisée :** Module d'impression directe via un canal sécurisé, évitant les spools système non protégés.
@@ -191,8 +193,10 @@ Application de bureau conçue pour :
   - **Sans pages blanches :** Détecte et supprime automatiquement les pages vides (basé sur la couverture d'encre).
 
   - **Intelligent (Recto-Verso) :** Assure une parité parfaite pour l'impression recto-verso en ajoutant une page blanche uniquement là où c'est nécessaire.
+
+- **Interface Multilingue :** L'application parle votre langue ! L'interface et les messages d'état en arrière-plan s'adaptent dynamiquement à 7 langues : **Français, Anglais, Allemand, Espagnol, Italien, Portugais Brésilien et Japonais**.
   
-- **Support Multilingue (17+ Langues) :** Reconnaissance optique native pour le Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Arabe, Japonais, Russe, Turc, Vietnamien, Norvégien, Suédois, Danois et Grec.
+- **Support OCR Multilingue (17+ Langues) :** Reconnaissance optique native pour le Français, Anglais, Allemand, Néerlandais, Italien, Espagnol, Portugais, Chinois (Simplifié), Arabe, Japonais, Russe, Turc, Vietnamien, Norvégien, Suédois, Danois et Grec.
 
 - **Interface Moderne & Traitement par Lots :** Interface graphique fluide et ergonomique avec support de la haute résolution. Ajoutez des dizaines de fichiers dans la file d'attente par simple Glisser-Déposer (Drag & Drop) pour les traiter en arrière-plan sans gel de l'application.
 
@@ -209,7 +213,7 @@ Application de bureau conçue pour :
 
 L'application prend en charge nativement les documents vectoriels et matriciels avec un traitement optimisé pour chaque type :
 
-* **Documents** : `PDF` (incluant les gros volumes scannés et les fichiers hybrides texte/image).
+* **Documents** : `PDF` (incluant les gros volumes scannés et les fichiers hybrides texte/image), `XPS` et `OXPS`.
 * **Images** : `PNG`, `JPG`, `JPEG`, `TIFF` et `BMP`.
 
 
@@ -218,7 +222,7 @@ L'application prend en charge nativement les documents vectoriels et matriciels 
 Pour traiter ou visualiser des documents avec **"Simple Text Extractor"** :
 
 **1. Ajouter des fichiers :**
-- Cliquez sur le bouton "Choisir PDF ou Image d'entrée" ou faites simplement glisser vos fichiers (PDF ou Images) dans la fenêtre de l'application.
+- Cliquez sur le bouton "Choisir PDF ou Image d'entrée" ou faites simplement glisser vos fichiers (PDF, XPS, OXPS, ou Images) dans la fenêtre de l'application.
 
 **2. Configurer l'action (OCR ou Fusion) :**
 - Pour l'extraction : Choisissez la langue correspondant au texte dans le menu déroulant "Langue OCR" (essentiel pour la précision).
@@ -284,4 +288,4 @@ Développé par **Gaëtan Sencie**, développeur Python.
 
 **Simple Text Extractor** est officiellement disponible sur le **Microsoft Store**, **GitHub** et le **Snap Store**, garantissant une diffusion fiable et validée.
 
-**Mots-clés** : OCR sécurisé, Visionneuse PDF sécurisée, Lecteur PDF local, Fusion PDF sans cloud, Extraction de texte hors ligne, Confidentialité des données, Sécurité informatique, Tesseract OCR, Lecture en mémoire vive, Zéro persistance, CWE-377, CWE-209, Anonymisation des logs, Bunker de données, Fusion recto-verso, Suppression pages blanches, PDF/A-1b, Linux Snap, Ubuntu, Application Windows 11, Python, Visionneuse image sécurisée, Visionneuse RAM.
+**Mots-clés** : OCR sécurisé, Visionneuse PDF sécurisée, Lecteur PDF local, Fusion PDF sans cloud, Extraction de texte hors ligne, Confidentialité des données, Sécurité informatique, Tesseract OCR, Lecture en mémoire vive, Zéro persistance, CWE-377, CWE-209, Anonymisation des logs, Bunker de données, Fusion recto-verso, Suppression pages blanches, PDF/A-1b, Linux Snap, Ubuntu, Application Windows 11, Python, Visionneuse image sécurisée, Visionneuse RAM, Lecteur XPS, OCR OXPS, Interface multilingue.
