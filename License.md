@@ -9,10 +9,10 @@ This software and all associated files (hereinafter the "Software") are the excl
 
 This Software utilizes and bundles certain third-party components under open-source licenses. The proprietary license below does not apply to these components. Their respective licenses are acknowledged below:
 
-**Ghostscript**
-This Software distributes the Ghostscript binary executable (e.g., `gs` on Linux/Snap, `gswin64c.exe` on Windows) to provide advanced PDF/A processing capabilities.
-Ghostscript is Copyright (C) Artifex Software, Inc. and is distributed under the GNU Affero General Public License (AGPL) v3.
-The Ghostscript executable is invoked as a separate, independent external process via standard command-line interfaces. It is not dynamically or statically linked to this Software, nor do they share the same memory space or internal data structures. On Linux, Ghostscript is distributed as part of a containerized Snap package alongside the Software, but remains a distinct executable. This architecture constitutes "mere aggregation" as defined by the AGPL v3. Therefore, the AGPL v3 terms apply strictly and exclusively to Ghostscript itself, and do not infect or alter the proprietary license of the Software invoking it.
+**Ghostscript & GhostXPS**
+This Software distributes the Ghostscript and GhostXPS binary executables (e.g., `gs` and `gxps` on Linux/Snap, `gswin64c.exe` and `gxpswin64.exe` on Windows) to provide advanced PDF/A and XPS/OXPS processing capabilities.
+Ghostscript and GhostXPS are Copyright (C) Artifex Software, Inc. and are distributed under the GNU Affero General Public License (AGPL) v3.
+The Ghostscript and GhostXPS executables are invoked as separate, independent external processes via standard command-line interfaces. They are not dynamically or statically linked to this Software, nor do they share the same memory space or internal data structures. On Linux, these executables are distributed as part of a containerized Snap package alongside the Software, but remain distinct executables. This architecture constitutes "mere aggregation" as defined by the AGPL v3. Therefore, the AGPL v3 terms apply strictly and exclusively to Ghostscript and GhostXPS themselves, and do not infect or alter the proprietary license of the Software invoking them.
 For more information and the full AGPL v3 text, please visit: [https://ghostscript.com/releases/gsdnld.html](https://ghostscript.com/releases/gsdnld.html)
 
 # 1. Grant of License:
@@ -62,10 +62,10 @@ Le présent logiciel et tous les fichiers associés (ci-après le "Logiciel") so
 
 Ce Logiciel utilise et distribue certains composants tiers sous licences open source. La licence propriétaire ci-dessous ne s'applique pas à ces composants. Leurs licences respectives sont reconnues ci-dessous :
 
-**Ghostscript**
-Ce Logiciel distribue l'exécutable binaire Ghostscript (ex. : `gs` sous Linux/Snap, `gswin64c.exe` sous Windows) pour fournir des fonctionnalités avancées de traitement PDF/A.
-Ghostscript est Copyright (C) Artifex Software, Inc. et est distribué sous la Licence Publique Générale Affero GNU (AGPL) v3.
-L'exécutable Ghostscript est invoqué en tant que processus externe séparé et indépendant via des interfaces en ligne de commande standard. Il n'est lié ni dynamiquement ni statiquement à ce Logiciel, et ils ne partagent ni le même espace mémoire ni les mêmes structures de données internes. Sous Linux, Ghostscript est distribué au sein d'un paquet conteneurisé Snap aux côtés du Logiciel, mais demeure un exécutable distinct. Cette architecture constitue une "simple agrégation" (mere aggregation) telle que définie par l'AGPL v3. Par conséquent, les conditions de l'AGPL v3 s'appliquent strictement et exclusivement à Ghostscript lui-même, et n'infectent ni ne modifient la licence propriétaire du Logiciel l'invoquant.
+**Ghostscript & GhostXPS**
+Ce Logiciel distribue les exécutables binaires Ghostscript et GhostXPS (ex. : `gs` et `gxps` sous Linux/Snap, `gswin64c.exe` et `gxpswin64.exe` sous Windows) pour fournir des fonctionnalités avancées de traitement PDF/A et XPS/OXPS.
+Ghostscript et GhostXPS sont Copyright (C) Artifex Software, Inc. et sont distribués sous la Licence Publique Générale Affero GNU (AGPL) v3.
+Les exécutables Ghostscript et GhostXPS sont invoqués en tant que processus externes séparés et indépendants via des interfaces en ligne de commande standard. Ils ne sont liés ni dynamiquement ni statiquement à ce Logiciel, et ne partagent ni le même espace mémoire ni les mêmes structures de données internes. Sous Linux, ces exécutables sont distribués au sein d'un paquet conteneurisé Snap aux côtés du Logiciel, mais demeurent des exécutables distincts. Cette architecture constitue une "simple agrégation" (mere aggregation) telle que définie par l'AGPL v3. Par conséquent, les conditions de l'AGPL v3 s'appliquent strictement et exclusivement à Ghostscript et GhostXPS eux-mêmes, et n'infectent ni ne modifient la licence propriétaire du Logiciel les invoquant.
 Pour plus d'informations et consulter le texte complet de l'AGPL v3, veuillez visiter : [https://ghostscript.com/releases/gsdnld.html](https://ghostscript.com/releases/gsdnld.html)
 
 # 1. Droits d’utilisation :
