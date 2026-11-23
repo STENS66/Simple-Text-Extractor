@@ -164,7 +164,7 @@ L'application intègre nativement un puissant moteur de **reconnaissance optique
 
 ## Prévisualisation
 
-![Capture d'écran de l'application Simple-Text-Extractor](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/image_app.png?raw=true)
+![Capture d'écran de l'application Simple-Text-Extractor](https://github.com/STENS66/Simple-Text-Extractor/blob/main/images/1.png?raw=true)
 
 
 ### Compatibilité
