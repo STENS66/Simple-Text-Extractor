@@ -8,8 +8,8 @@ Only the versions listed below currently receive security updates.
 
 | Version | Supported | Notes |
 | :--- | :--- | :--- |
-| 1.6.x | ✅ | Current version (Microsoft Store) |
-| < 1.6 | ❌ | End-of-Life / Obsolete |
+| 1.7.x | ✅ | Current version (Microsoft Store) |
+| < 1.7 | ❌ | End-of-Life / Obsolete |
 
 ## Reporting a Vulnerability
 
@@ -40,8 +40,8 @@ Seules les versions listées ci-dessous bénéficient actuellement de mises à j
 
 | Version | Supportée | Notes |
 | :--- | :--- | :--- |
-| 1.6.x | ✅ | Version actuelle (Microsoft Store) |
-| < 1.6 | ❌ | Obsolète |
+| 1.7.x | ✅ | Version actuelle (Microsoft Store) |
+| < 1.7 | ❌ | Obsolète |
 
 ## Signaler une Vulnérabilité
 
@@ -59,3 +59,4 @@ Merci de suivre la procédure de **divulgation responsable** suivante :
 * Une fois la faille corrigée et la mise à jour publiée sur le Microsoft Store, je vous créditerai publiquement (si vous le souhaitez) dans les notes de version pour vous remercier de votre aide.
 
 Merci de m'aider à garder Simple-Text-Extractor sûr pour tous !
+
